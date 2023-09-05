@@ -10,6 +10,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "1500-color-names": "^1.1.1",
+    "uniqolor": "^1.1.0"
+  },
   "devDependencies": {
     "eslint-config-upleveled": "^5.0.4",
     "typescript": "^5.2.2"

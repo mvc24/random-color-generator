@@ -4,6 +4,14 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  1500-color-names:
+    specifier: ^1.1.1
+    version: 1.1.1
+  uniqolor:
+    specifier: ^1.1.0
+    version: 1.1.0
+
 devDependencies:
   eslint-config-upleveled:
     specifier: ^5.0.4
@@ -13,6 +21,10 @@ devDependencies:
     version: 5.2.2
 
 packages:
+
+  /1500-color-names@1.1.1:
+    resolution: {integrity: sha512-U3++tZrKtwpog0MueVs5GSnEfF3jXVFwM2/DntKkAMtbyXXU8AJzQ3QQrriPN3qKiRBXMq4ovEELyBBQJoDpOQ==}
+    dev: false
 
   /@aashutoshrathi/word-wrap@1.2.6:
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
@@ -2750,6 +2762,10 @@ packages:
       has-symbols: 1.0.3
       which-boxed-primitive: 1.0.2
     dev: true
+
+  /uniqolor@1.1.0:
+    resolution: {integrity: sha512-j2XyokF24fsj+L5u6fbu4rM3RQc6VWJuAngYM2k0ZdG3yiVxt0smLkps2GmQIYqK8VkELGdM9vFU/HfOkK/zoQ==}
+    dev: false
 
   /update-browserslist-db@1.0.11(browserslist@4.21.10):
     resolution: {integrity: sha512-dCwEFf0/oT85M1fHBg4F0jtLwJrutGoHSQXCh7u4o2t1drG+c0a9Flnqww6XUKSfQMPpJBRjU8d4RXB09qtvaA==}
